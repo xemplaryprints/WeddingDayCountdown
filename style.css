@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300;500&family=Red+Hat+Text:wght@700&family=Roboto:wght@300&display=swap');
+
+@font-face {
+    font-family: caligraphy;
+    src: url(images/AutumnFlowers-9YVZK.otf);
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Red Hat Text;
+    width: 100%;
+    background-color: #437081;
+    height: 100vh;
+    
+}
+
+
+
+.title {
+    display: flex;
+    font-family: caligraphy;
+    color: #E6C5D8;
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 10px;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.countdown-content {
+    margin: 50px;
+    margin-top: 100px;
+    background-color: #9EDEC6;
+    width: 175px;
+    height: 175px;
+    border-radius: 35px;
+    box-shadow: 0 5px 4px 0 rgba(0, 0, 0, .1);
+}
+
+.countdown-content p {
+    display: flex;
+    margin-top: 38px;
+    justify-content: center;
+    font-size: 75px;
+    color: #437081;
+}
+
+.countdown-content p:hover {
+    color: white;
+    transition: all .2s ease-out;
+    cursor: pointer;
+}
+
+.countdown-content h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+    color: #E6C5D8;
+    position: relative;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+@media all and (max-width: 500px) {
+    .title {
+        padding: 8px;
+        display: flex;
+        font-size: 20px;
+    }
+
+    .countdown-content {
+        width: 40%;
+        margin: 15px;
+        margin-top: 25px;
+    }
+
+    .countdown-content h2 {
+        font-size: 20px;
+        margin-top: -35px;
+    }
+
+
+}
