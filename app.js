@@ -1,7 +1,7 @@
 const countdown = () => {
     //End Date
 
-    const countDownDate = new Date("October 05, 2024 00:00:00").getTime()
+    const countDownDate = new Date("October 26, 2024 00:00:00").getTime()
 
     //Date Now
 
